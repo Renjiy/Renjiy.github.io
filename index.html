@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--采用最新版本的IE文档模式渲染页面-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--移动设备优先，让viewport等于设备宽度，初始化缩放比例为1-->
+
+    <meta name="keyworld" content="任继源,继源,个人网站">
+
+    <meta name="robots" content="none">
+    <!--不索引-->
+
+    <Meta name="Author" Content="任继源，renjiy@foxmail.com">
+
+    <Meta name="Copyright" Content="本页版权归任继源个人所有！">
+
+    <title>任继源</title>
+
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!--兼容设置及页面初始化-->
+    <script src="components/js/html5shiv.js"></script>
+    <!--html5shiv.js让IE6,7,8支持html5-->
+    <script src="components/js/respond.js"></script>
+    <!--respond.js让IE6,7,8支持媒体查询-->
+    <script src="components/js/fontSize.js"></script>
+
+    <!--网站icon-->
+    <link rel="shortcut icon" href="./img/icon.png">
+    <link rel="apple-touch-icon" href="./img/icon-72x72.png">
+    <link rel="apple-touch-icon" href="./img/icon-114x114.png">
+</head>
+<body>
+<header id="header">
+    <!--导航-->
+    <nav id="nav" class="navbar navbar-inverse container-fluid navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand"> RenJiYuan</a>
+            </div>
+            <div class="collapse navbar-collapse nav-con" id="collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#carousel">个人信息</a></li>
+                    <li><a href="#ability">专业技能</a></li>
+                    <li><a href="#project">项目展示</a></li>
+                    <li><a href="#map">所在位置</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section id="section" class="container-fluid">
+    <!--个人信息 背景添加动画-->
+    <div id="carousel" class="container-fluid">
+        <ul>
+            <li>
+                <div class="carousel-img carousel-img-one"></div>
+            </li>
+        </ul>
+        <div class="carousel-introduce">
+            <div class="portrait"></div>
+            <br>
+            <div class="name">任继源</div>
+            <div class="sex">男</div>
+            <div class="phone">电话：18217166265</div>
+            <div class="email">邮箱：renjiy@foxmail.com</div>
+        </div>
+    </div>
+
+    <!--个人技能-->
+    <div id="ability">
+        <p class="ability-title">专业技能</p>
+        <p class="ability-titleFamous">我绝不相信,任何先天的或后天的才能,可以无需坚定的、长期的、若干的信念而得到成功.</p>
+        <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 wow fadeInDown">
+            <div class="ability-con">
+                <div class="panel-group" id="collapse1">
+                    <!--第一个面板-->
+                    <div class="panel panel-default wow bounceInLeft" data-wow-duration="2s">
+                        <div class="panel-heading active panel-heading-click">
+                            <h3 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#collapse1" href="#panelOne">
+                                    现  在
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    <!--第一个面板内容-->
+                    <div id="panelOne" class="collapse panel-collapse wow slideInRight" data-wow-duration=".5s">
+                        <div class="panel-body">
+                            掌握html和css技术，了解W3C标准、HTML语义化相关知识；<br>
+                            掌握html5标准，语义化的编程和css3的相关特效；<br>
+                            掌握原生js写法，熟悉js面向对象编程；<br>
+                            熟练应用bom，掌握dom元素的操作；<br>
+                            掌握Javascript框架jquery，zepto；<br>
+                            掌握 css 预处理语言less，sess ；<br>
+                            熟练应用Bootstrap和materialize响应式前端ui框架，并能做自我定制；<br>
+                            熟练掌握angularjs技术，对angularjs的服务，控制器，过滤器，自定义指令能熟练应用，对依赖注入和MVC的思想有较深的理解；<br>
+                            对nodejs的web框架express能熟练应用，以及服务段模板框架jade，对其路由机制有较深理解；<br>
+                            熟悉php语言，能操作基本的php+mySQL或node+mongoDB，与后台进行交互；<br>
+                            掌握自动化构建工具gulp，完成前端自动化，熟悉npm命令行工具及包管理工具；<br>
+                            熟悉移动端前端框架mui，并能进行webapp开发。<br>
+                        </div>
+                    </div>
+
+                    <!--第二个面板-->
+                    <div class="panel panel-default wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.1s">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#collapse1" href="#panelTwo">
+                                    一  年  前
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    <!--第二个面板内容-->
+                    <div id="panelTwo" class="collapse panel-collapse wow slideInRight" data-wow-duration="0.5s">
+                        <div class="panel-body">
+                            掌握html5标准，语义化的编程和css3的相关特效；<br>
+                            掌握Js框架jquery，zepto；<br>
+                            掌握css预处理语言less，sess ；<br>
+                            熟练应用Bootstrap和materialize响应式前端ui框架，并能做自我定制；<br>
+                            熟练掌握angularjs技术，对angularjs的服务，控制器，过滤器，自定义指令能熟练应用，对依赖注入和MVC的思想有较深的理解；<br>
+                            对nodejs的web框架express能熟练应用，以及服务段模板框架jade，对其路由机制有较深理解；<br>
+                            熟悉php语言，能操作基本的php+mySQL或node+mongoDB，与后台进行交互；<br>
+                            掌握自动化构建工具gulp，完成前端自动化，熟悉npm命令行工具及包管理工具；<br>                        </div>
+                    </div>
+
+                    <!--第三个面板-->
+                    <div class="panel panel-default wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#collapse1" href="#panelThree">
+                                    两  年  前
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    <!--第三个面板内容-->
+                    <div id="panelThree" class="collapse panel-collapse wow slideInRight" data-wow-duration="0.5s">
+                        <div class="panel-body">
+                            掌握html和css技术，了解W3C标准、HTML语义化相关知识；<br>
+                            掌握原生js写法，熟悉js面向对象编程；<br>
+                            熟练应用bom，掌握dom元素的操作；<br>
+                        </div>
+                    </div>
+
+                    <!--第四个面板-->
+                    <div class="panel panel-default wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.3s">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#collapse1" href="#Four">
+                                    计  划  进  行  中
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    <!--第四个面板内容-->
+                    <div id="Four" class="collapse panel-collapse wow slideInRight" data-wow-duration="0.5s">
+                        <div class="panel-body">
+                            掌握vue.js<br>
+                            掌握ES6<br>
+                            熟悉TypeScript<br>
+                            熟悉Ionic<br>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--项目展示-->
+    <div id="project" class="container">
+        <p class="project-title">项目展示</p>
+        <p class="project-titleFamous">坚持把简单的事情做好就是不简单，坚持把平凡的事情做好就是不平凡。所谓成功，就是在平凡中做出不平凡的坚持.</p>
+        <div class="project-content col-md-10 col-md-offset-1 col-sm-12">
+            <div class="conDiv">
+                <img class="conDiv-img" src="./img/meizu.jpg" width="100%">
+                <div class="conDiv-text">
+                    <h3>魅族 web app</h3>
+                    <p>使用mui为主体前端框架，通过mui自身的单webview页面完成Tab切换；<br/>
+                        使用less作为css的预编译语言，来完成整个网站的css样式编写；<br/>
+                        使用gulp进行前端自动化管理；</p>
+                </div>
+            </div>
+            <div class="conDiv">
+                <img class="conDiv-img" src="./img/canna.jpg" alt="">
+                <div class="conDiv-text">
+                    <h3>Canna</h3>
+                    <p>使用bootstrap实现响应式页面；<br/>
+                        使用jquery辅助搭建前台框架;<br/>
+                        使用less作为css的预编译语言，来完成整个网站的css样式编写；<br/>
+                        使用angular路由实现单页面跳转<br/>
+                        使用css3以及js实现网页特效;</p>
+                </div>
+            </div>
+            <div class="conDiv">
+                <img class="conDiv-img" src="./img/webcce.jpg" alt="">
+                <div class="conDiv-text">
+                    <h3>网站的维护/子模块开发</h3>
+                    <p>公司项目的web前端维护；<br/>
+                        完成页面的特效替换；<br/>
+                        根据客户需求对产品进行不断的优化和维护；<br/>
+                        主要使用html，css，js，jq，html5，css3，bootstrap</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--地图-->
+    <div id="map" class="container">
+        <p class="map-title">所在位置</p>
+        <p class="map-titleFamous">有志者，事竟成，破釜沉舟，百二秦关终属楚；苦心人，天不负，卧薪尝胆，三千越甲可吞吴.</p>
+        <div id="dituContent"></div>
+    </div>
+
+    <!--Top fixed-->
+    <!--后续更改：在js中添加当时滑轮滚动到特性位置才会显示，并给按钮绑定时间点击回到页面顶部$(window).scrollTop(0);；鼠标悬浮更改图标为回到顶部-->
+    <div id="fixedTop">
+        <a href="#" class="fixedTop-btn">
+            <i class="fa fa-arrow-up fa-2x">
+
+            </i>
+        </a>
+    </div>
+
+    <div id="skill">
+
+    </div>
+</section>
+
+<footer id="footer">
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-4 footerLeft">
+            <h3>联系方式</h3>
+            <p>电话：18217166265</p>
+            <p>邮箱：renjiy@foxmail.com</p>
+            <p>微信：Ren-JiYuan</p>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4 footerCenter">
+            <h3>任继源</h3>
+            <p>
+                如果你浪费了自己的年龄，那是挺可悲的。
+            </p>
+            <p>
+                因为你的青春只能持续一点儿时间
+            </p>
+            <p>
+                ——很短的一点儿时间。
+            </p>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4 footerRight">
+            <h3>所在位置</h3>
+            <p>上海市</p>
+            <p>浦东新区</p>
+            <p>地铁六号线底站</p>
+        </div>
+    </div>
+</div>
+</footer>
+
+<header id="headerMin">
+
+</header>
+
+<section id="sectionMin">
+非常抱歉，为提高用户视觉体验采用Pc与移动端页面分离，现移动端页面正在搭建还未上线，请使用Pc端进行登入访问，如有建议或紧急事情请联系：邮箱：renjiy@foxmail.com，电话：18217166265/15762620972。
+</section>
+
+<footer id="footerMin">
+
+</footer>
+<script src="./js/loading.js"></script>
+<script src="./bower_components/jquery/dist/jquery.js"></script>
+<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./components/js/wow.min.js"></script>
+<script src="./js/slider.js"></script>
+<script src="./js/index.js"></script>
+<script src="./bower_components/animejs/anime.min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+<script src="./js/map.js"></script>
+<script>
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 100,
+        mobile: true,
+        live: true
+    });
+    wow.init();
+</script>
+</body>
+</html>
